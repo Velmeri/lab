@@ -1,4 +1,6 @@
 #pragma once
+#include <iostream>
+
 class Book
 {
 	char* name;
@@ -9,4 +11,3 @@ public:
 	void Print();
 	~Book();
 };
-
